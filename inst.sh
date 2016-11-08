@@ -12,5 +12,7 @@ ps augx
 cat /var/log/mysqld.log
 
 
+yum install -y perl-DateTime
+
 echo Installing ITSM packages..
 su -c /instpkg.sh otrs
