@@ -2,24 +2,24 @@ OTRS5 Helpdeskに追加モジュール及びITSM関連モジュールを追加�
 
 各モジュールのバージョンは以下の通りです。
 
-OTRS 5.0.18
+OTRS 5.0.20
 
 - ITSM -
-Survey 5.0.2
+Survey 5.0.4
 SystemMonitoring 5.0.1
 TimeAccounting 5.0.6
-FAQ 5.0.8
+FAQ 5.0.9
 OTRSAppointmentCalendar 5.0.2
-OTRSMasterSlave 5.0.6
+OTRSMasterSlave 5.0.9
 
 - ITSM -
-GeneralCatalog 5.0.18
-ImportExport 5.0.18
-ITSMChangeManagement 5.0.18
-ITSMConfigurationManagement 5.0.18
-ITSMCore 5.0.18
-ITSMIncidentProblemManagement 5.0.18
-ITSMServiceLevelManagement 5.0.18
+GeneralCatalog 5.0.20
+ImportExport 5.0.20
+ITSMChangeManagement 5.0.20
+ITSMConfigurationManagement 5.0.20
+ITSMCore 5.0.20
+ITSMIncidentProblemManagement 5.0.20
+ITSMServiceLevelManagement 5.0.20
 
 
 OTRS5sの新機能であるカレンダーは本イメージに追加しています。
