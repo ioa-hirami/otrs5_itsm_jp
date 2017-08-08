@@ -10,7 +10,7 @@ echo waiting to start mysqld..
 
 while :
 do
-  ps augx | grep mysqld > /dev/null 2>&1
+  ps augx | grep `cat /var/run/mysqld/mysqld.pid` > /dev/null 2>&1
   if [ $? = 0 ]; then
     echo "OK."
     break
@@ -21,8 +21,8 @@ done
 
 yum install -y perl-DateTime
 
-#ps augx
-#cat /var/log/mysqld.log
+ps augx
+cat /var/log/mysqld.log
 
 echo Installing ITSM packages..
 su -c /instpkg.sh otrs
