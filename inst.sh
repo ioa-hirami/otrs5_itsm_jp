@@ -5,7 +5,7 @@ rm /var/log/mysqld.log
 touch /var/log/mysqld.log
 chown mysql.mysql /var/log/mysqld.log
 
-/usr/sbin/mysqld --pid-file=/var/run/mysqld/mysqld.pid --user=root --log-error=/var/log/mysqld.log &
+/usr/sbin/mysqld --pid-file=/var/run/mysqld/mysqld.pid --datadir=/var/lib/mysql --user=root --log-error=/var/log/mysqld.log &
 echo waiting to start mysqld..
 
 while :
