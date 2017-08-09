@@ -3,4 +3,4 @@ MAINTAINER Tomohisa Hirami<hirami@io-architect.com>
 
 COPY instpkg.sh inst.sh /
 RUN chmod 775 /inst.sh /instpkg.sh
-RUN /inst.sh
+#RUN /inst.sh
